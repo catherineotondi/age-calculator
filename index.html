@@ -12,40 +12,102 @@
             padding: 0;
             margin: 0;
              }
-        * {
-        box-sizing: border-box;
-            }
+
             .field {
 
             display: inline-block;
+            width: 30%;
+        
+   margin:-90px 0 0 -90px;
+   position:absolute;
+   left:50%;
+   top:50%;
+           
+    
+          
+           
+             }
+            .whole{
+                text-align: center;
+                background-color: rgb(141, 151, 151);
+                font-size: medium;
+            }
+            legend {
+    
+                padding: 3px 6px;
+}
 
+input[type=text] {
+ width: 140px;
+ margin: auto;
+ outline: none;
+ min-height: 50px;
+ border: 2px solid #1073d0;
+ padding: 12px;
+ background-color: #f7f7f7;
+ border-radius: 2px;
+ color: #1073d0;
+ font-size: 17px;
+}
+
+input[type=text]:focus{
+ background-color: #ffffff;
+ border: 2px solid orange;
+ outline: none;
+}
+input[type=button]{
+ width: 150px;
+ margin-left: 35%;
+ margin-top: 40px;
+ outline: none;
+ border: none;
+ border-radius: 2px;
+ background-color: #616266;
+ color: #ffffff;
+ padding: 14px 16px;
+ text-align: center;
+ font-size: 16px;
+}
+
+input[type=button]:hover{
+ background-color: #003669;
 }
     </style>
  </head>
   <body>
       <form>
           <fieldset class="field">
-              <legend>User Information</legend>
-        
-    <p>Select your gender</p>
+              <legend><b>User Information</b></legend>
+
+              <div class="whole">
+                  
+    <p><b>Select your gender</b></p>
     <input type="radio" name="gender" value="male"> Male
     <input type="radio" name="gender" value="female"> Female<br>
-    <div class="block">
+    <p><b>Enter your Date of Birth</b></p>
+   
         <p class="title">Date</p>
+
         <input type="text" name="date" id="date" placeholder="dd" required="required" minlength="1" maxlength="2" />
-      </div>
-      <div class="block">
-        <p class="title">Month</p>
+     
+     
+        <p>Month</p>
         <input type="text" name="month" id="month" placeholder="mm" required="required" minlength="1" maxlength="2" />
-      </div>
-      <div class="block">
-        <p class="title">Year</p>
+     
+    
+        <p>Year</p>
         <input type="text" name="year" id="year" placeholder="yyyy" required="required" minlength="4" maxlength="4" />
-      </div>
-      <div class="block">
-        <p class="title">Century</p>
+      
+ 
+        <p>Century</p>
         <input type="text" name="Century" id="century" placeholder="yy" required="required" minlength="1" maxlength="2" />
-      </div>
+        
+        <p>
+            <input type="button" name="submit" value="Submit"/>
+        </p>
+
+              </div>
+      
 
 
 
