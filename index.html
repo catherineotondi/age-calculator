@@ -3,12 +3,59 @@
   <head>
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <title>Age Calculator</title>
+    <style>
+        body{
+            background-color: rgb(223, 213, 202);
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 15px;
+            line-height: 1.5;
+            padding: 0;
+            margin: 0;
+             }
+        * {
+        box-sizing: border-box;
+            }
+            .field {
+
+            display: inline-block;
+
+}
+    </style>
  </head>
   <body>
+      <form>
+          <fieldset class="field">
+              <legend>User Information</legend>
+        
     <p>Select your gender</p>
-    <input type="radio" name="gender" value="male"> Male<br>
+    <input type="radio" name="gender" value="male"> Male
     <input type="radio" name="gender" value="female"> Female<br>
+    <div class="block">
+        <p class="title">Date</p>
+        <input type="text" name="date" id="date" placeholder="dd" required="required" minlength="1" maxlength="2" />
+      </div>
+      <div class="block">
+        <p class="title">Month</p>
+        <input type="text" name="month" id="month" placeholder="mm" required="required" minlength="1" maxlength="2" />
+      </div>
+      <div class="block">
+        <p class="title">Year</p>
+        <input type="text" name="year" id="year" placeholder="yyyy" required="required" minlength="4" maxlength="4" />
+      </div>
+      <div class="block">
+        <p class="title">Century</p>
+        <input type="text" name="Century" id="century" placeholder="yy" required="required" minlength="1" maxlength="2" />
+      </div>
 
+
+
+
+    </fieldset>
+
+
+
+
+    </form>
 
 
   </body>
