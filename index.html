@@ -9,29 +9,29 @@
       <form onsubmit=" Validate()">
           <fieldset class="field">
               <legend><b>User Information</b></legend>
-
-              <div class="whole">
+              
+     <div class="whole">
                   
     <p><b>Select your gender</b></p>
     <input type="radio" name="gender" value="male"> Male
     <input type="radio" name="gender" value="female"> Female<br>
     <p><b>Enter your Date of Birth</b></p>
    
-        <p class="title">Date</p>
+        <p><b>Date</b></p>
 
         <input type="number" name="date" id="date" placeholder="dd" min="1" max="31" required>
      
      
-        <p>Month</p>
+        <p><b>Month</b></p>
         <input type="number" name="month" id="month" placeholder="mm"  min="1" max="12" required>
      
     
-        <p>Year</p>
-        <input type="number" name="year" id="year" placeholder="yyyy"  minlength="2" maxlength="4" required>
+        <p><b>Year</b> <br>i.e  Year digits (1989 has YY = 89)</p>
+        <input type="number" name="year" id="year" placeholder="yy"  min="1" max="99" required>
       
  
-        <p>Century</p>
-        <input type="number" name="Century" id="century" placeholder="yy"  min="19" max="20" required>
+        <p><b>Century</b><br> i.e 1989 has CC = 19</p>
+        <input type="number" name="Century" id="century" placeholder="yy"  min="16" max="20" required>
         
         <p>
             <!-- <input type="button" name="submit" value="Submit"/> -->
