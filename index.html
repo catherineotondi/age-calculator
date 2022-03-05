@@ -75,7 +75,7 @@ input[type=button]:hover{
     </style>
  </head>
   <body>
-      <form>
+      <form  action="/action_page.php" method="post" onsubmit="return Validate()">
           <fieldset class="field">
               <legend><b>User Information</b></legend>
 
@@ -88,19 +88,19 @@ input[type=button]:hover{
    
         <p class="title">Date</p>
 
-        <input type="text" name="date" id="date" placeholder="dd" required="required" minlength="1" maxlength="2" />
+        <input type="text" name="date" id="date" placeholder="dd" minlength="1" maxlength="2" required>
      
      
         <p>Month</p>
-        <input type="text" name="month" id="month" placeholder="mm" required="required" minlength="1" maxlength="2" />
+        <input type="text" name="month" id="month" placeholder="mm"  minlength="1" maxlength="2" required>
      
     
         <p>Year</p>
-        <input type="text" name="year" id="year" placeholder="yyyy" required="required" minlength="4" maxlength="4" />
+        <input type="text" name="year" id="year" placeholder="yyyy"  minlength="4" maxlength="4" required>
       
  
         <p>Century</p>
-        <input type="text" name="Century" id="century" placeholder="yy" required="required" minlength="1" maxlength="2" />
+        <input type="text" name="Century" id="century" placeholder="yy"  minlength="1" maxlength="2" required>
         
         <p>
             <input type="button" name="submit" value="Submit"/>
