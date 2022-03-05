@@ -12,7 +12,7 @@
 //         return true;
 //     }
 // }
-function akanName(){
+document.getElementById("button").onclick=function akanName(){
     var male= ["Kwasi","Kwadwo","Kwabena","Kwaku","Yaw","Kofi","Kwame"]
     var female= ["Akosua","Adwoa","Abenaa","Akua","Yaa","Afua","Ama"]
 
@@ -24,46 +24,46 @@ function akanName(){
     var weekDay= ( ( (century/4) -2*century-1) + ((5*year/4) ) + ((26*(month+1)/10)) + date ) %7;
 
     if (weekDay=1 && male==1){
-        console.log("Your Akan name is Kwasi")
+        alert("Your Akan name is Kwasi")
     }
     else if (weekDay =2 && male==2){
-        console.log("Your Akan name is Kwadwo")
+        alert("Your Akan name is Kwadwo")
     }
     else if (weekDay =3 && male==3){
-        console.log("Your Akan name is Kwabena")
+        alert("Your Akan name is Kwabena")
     }
     else if (weekDay =4 && male==4){
-        console.log("Your Akan name is Kwaku")
+        alert("Your Akan name is Kwaku")
     }
     else if (weekDay =5 && male==5){
-        console.log("Your Akan name is Yaw")
+        alert("Your Akan name is Yaw")
     }
     else if (weekDay =6 && male==6){
-        console.log("Your Akan name is Kofi")
+        alert("Your Akan name is Kofi")
     }
     else if (weekDay =7 && male==7){
-        console.log("Your Akan name is Kwame")
+       alert("Your Akan name is Kwame")
     }
     else if (weekDay =1 && female==1){
-        console.log("Your Akan name is AKosua")
+       alert("Your Akan name is AKosua")
     }
     else if (weekDay =2 && female==2){
-        console.log("Your Akan name is Adwoa")
+        alert("Your Akan name is Adwoa")
     }
     else if (weekDay =3 && female==3){
-        console.log("Your Akan name is Abenaa")
+        alert("Your Akan name is Abenaa")
      }
      else if (weekDay =4 && female==4){
-        console.log("Your Akan name is Akua")
+        alert("Your Akan name is Akua")
      }
      else if (weekDay =5 && female==5){
-        console.log("Your Akan name is Yaw")
+        alert("Your Akan name is Yaw")
      }
      else if (weekDay =6 && female==6){
-        console.log("Your Akan name is Afua")
+        alert("Your Akan name is Afua")
      }
      else if (weekDay =7 && female==7){
-        console.log("Your Akan name is Ama")
+        alert("Your Akan name is Ama")
      }
    
         
