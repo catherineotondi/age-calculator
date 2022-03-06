@@ -1,17 +1,4 @@
-// function Validate() {
-//     var date=document.getElementById("date").value;
-//     var month=document.getElementById("month").value;
-//     var year=document.getElementById("year").value;
-//     var century=document.getElementById("century").value;
 
-//     if (date=="" || month=="" || year==""|| century==""){
-//         alert("required");
-//         return false;
-//     }
-//     else{
-//         return true;
-//     }
-// }
 document.getElementById("button").onclick=function akanName(){
     var male= ["Kwasi","Kwadwo","Kwabena","Kwaku","Yaw","Kofi","Kwame"]
     var female= ["Akosua","Adwoa","Abenaa","Akua","Yaa","Afua","Ama"]
@@ -21,7 +8,7 @@ document.getElementById("button").onclick=function akanName(){
     var year=document.getElementById("year").value;
     var century=document.getElementById("century").value;
 
-    var weekDay= ( ( (century/4) -2*century-1) + ((5*year/4) ) + ((26*(month+1)/10)) + date ) %7;
+    var weekDay= Math.floor(( ( (century/4)-2*century-1)+((5*year/4) )+((26*(month+1)/10)) + date ) %7);
 
     if (weekDay==0 && male==[0]){
         alert("Your Akan name is Kwasi")
