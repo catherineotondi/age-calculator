@@ -1,6 +1,6 @@
 
-        body{
-            background-color: rgb(223, 213, 202);
+        .zeebody{
+            background-color: rgb(247, 243, 239);
             font-family: Arial, Helvetica, sans-serif;
             font-size: 15px;
             line-height: 1.5;
@@ -12,16 +12,11 @@
 
             display: inline-block;
             width: 30%;
-        
-   margin:-90px 0 0 -90px;
-   position:absolute;
-   left:50%;
-   top:50%;
-           
-    
-          
-           
-             }
+            margin:-90px 0 0 -90px;
+            position:absolute;
+            left:50%;
+            top:50%;
+                }
             .whole{
                 text-align: center;
                 background-color: rgb(141, 151, 151);
@@ -55,3 +50,26 @@ input[type=number]:focus{
 input[type=button]:hover{
  background-color: #003669;
 }
+
+.topnav {
+    background-color: rgb(70, 27, 172);
+    overflow: hidden;
+    float: right;
+
+  }
+  .topnav a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  .topnav a:hover {
+    background-color: rgb(39, 151, 39);
+    color: rgb(199, 22, 22);
+    }
+    .topnav a.active {
+        background-color:whitesmoke;
+        color:black;
+       }
