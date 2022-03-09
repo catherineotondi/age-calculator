@@ -136,7 +136,7 @@ const maleAkanName = [
       // Convert negative numbers to positive
       const malePositive = Math.abs(Math.round(male_day_of_week));
   
-      alert(maleAkanName[malePositive]);
+      alert("Your Akan name is " + maleAkanName[malePositive]);
      
   
       // clear form
@@ -154,7 +154,7 @@ const maleAkanName = [
       // Convert negative numbers to positive
       const femalePositive = Math.abs(Math.round(female_day_of_week));
   
-      alert(femaleAkanName[femalePositive]);
+      alert("Your AKan name is " + femaleAkanName[femalePositive]);
       
   
       // clear form
